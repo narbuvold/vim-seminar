@@ -68,20 +68,6 @@ set backspace=indent,eol,start
 set notimeout ttimeout ttimeoutlen=200
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"                               Undo and swap
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" save undo's after file closes
-set undofile                        
-" where to save undo histories
-set undodir=$HOME/.vim/undo         
-" how many undos
-set undolevels=1000                 
-" number of lines to save for undo
-set undoreload=10000                
-set directory=$HOME/.vim/swap//
-set backupdir=$HOME/.vim/backup//
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                               Mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Allow simple commant-line operations with capital letters
